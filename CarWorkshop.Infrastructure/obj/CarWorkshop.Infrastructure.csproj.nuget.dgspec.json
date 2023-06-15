@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.MVC\\CarWorkshop.MVC.csproj": {}
+    "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.Infrastructure\\CarWorkshop.Infrastructure.csproj": {}
   },
   "projects": {
     "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.Application\\CarWorkshop.Application.csproj": {
@@ -118,14 +118,14 @@
         }
       }
     },
-    "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.MVC\\CarWorkshop.MVC.csproj": {
+    "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.Infrastructure\\CarWorkshop.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.MVC\\CarWorkshop.MVC.csproj",
-        "projectName": "CarWorkshop.MVC",
-        "projectPath": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.MVC\\CarWorkshop.MVC.csproj",
+        "projectUniqueName": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.Infrastructure\\CarWorkshop.Infrastructure.csproj",
+        "projectName": "CarWorkshop.Infrastructure",
+        "projectPath": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.Infrastructure\\CarWorkshop.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.MVC\\obj\\",
+        "outputPath": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -136,7 +136,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -170,9 +169,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
