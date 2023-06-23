@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HIu0F0ET9ApLp7myBJdUAAoaGV7Ova/u1Xm/wDDA8ej3N28L3O6cRhFiP+Y0vw4iCSfNgEHdUd1keXCVuxl38Q==",
+  "dgSpecHash": "nv6tjbClb+AhyGjug+pOsxPHwitiRtwz714yq8IOQvtM/vH3qXg2SD90EykSXsfouTQX+GYQrj5OGJ7Bf9ki6w==",
   "success": true,
   "projectFilePath": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.Application\\CarWorkshop.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
