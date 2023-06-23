@@ -1,4 +1,5 @@
 ﻿using CarWorkshop.Infrastructure.Persistence;
+using CarWorkshop.Infrastructure.Seeder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,6 +16,7 @@ namespace CarWorkshop.Infrastructure.Extensions
         public static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<CarWorkshopDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("CarWorkshop")));
+            services.AddScoped<CarWorhskopSeeder>();
         }
     }
 }
