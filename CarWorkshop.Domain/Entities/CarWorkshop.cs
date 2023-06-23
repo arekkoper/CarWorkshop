@@ -14,6 +14,7 @@ namespace CarWorkshop.Domain.Entities
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public CarWorkshopContactDetails ContactDetails { get; set; } = default!;
         public string EncodedName { get; private set; } = default!;
+        public string? About { get; set; }
 
         public void EncodeName() => EncodedName = Name.ToLower().Replace(" ", "-");
     }
