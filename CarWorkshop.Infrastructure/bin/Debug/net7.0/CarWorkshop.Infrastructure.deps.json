@@ -672,7 +672,8 @@
       },
       "CarWorkshop.Application/1.0.0": {
         "dependencies": {
-          "CarWorkshop.Domain": "1.0.0"
+          "CarWorkshop.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "runtime": {
           "CarWorkshop.Application.dll": {}

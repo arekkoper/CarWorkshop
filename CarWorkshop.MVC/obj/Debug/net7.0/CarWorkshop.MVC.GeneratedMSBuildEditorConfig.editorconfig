@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Programowanie/CarWorkshop/CarWorkshop/CarWorkshop.MVC/Views/CarWorkshop/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyV29ya3Nob3BcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Programowanie/CarWorkshop/CarWorkshop/CarWorkshop.MVC/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
