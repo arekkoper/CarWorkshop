@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using CarWorkshop.Application.CarWorkshop;
 using CarWorkshop.Domain.Interfaces;
-
+using Microsoft.AspNetCore.Mvc;
 
 namespace CarWorkshop.Application.Services
 {
@@ -23,6 +23,14 @@ namespace CarWorkshop.Application.Services
             carWorkshop.EncodeName();
             await _carWrokshopRepository.Create(carWorkshop);
 
+        }
+
+        public async Task<IEnumerable<CarWorkshopDTO>> GetAll()
+        {
+            var carWorkshops = await _carWrokshopRepository.GetAll();
+            var dtos = _mapper.Map<IEnumerable<CarWorkshopDTO>>(carWorkshops);
+
+            return dtos;
         }
     }
 }

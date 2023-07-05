@@ -21,10 +21,17 @@ namespace CarWorkshop.MVC.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CarWorkshopDTO carWorkshop)
         {
-            if (!ModelState.IsValid) return View();
+            if (!ModelState.IsValid) return View(carWorkshop);
 
             await _carWorkshopService.Create(carWorkshop);
-            return RedirectToAction(nameof(Create));
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var carWorkshops = await _carWorkshopService.GetAll();
+
+            return View(carWorkshops);
         }
     }
 }
