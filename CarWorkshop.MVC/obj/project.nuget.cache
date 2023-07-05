@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SEKgMF93f/WQfYnh1BS6yfK//JH6eqaSkv+I7IuXDD6Vp1G/qU0Ms1yz6H1/1hmyBQsvjlhs/k2g1HWrdkLlKQ==",
+  "dgSpecHash": "mOgj59r3XNEidD6PMPDYmWGnU6nreInCGp35PUd4PSUMQL0xWNoDpkk5I/Z6492Z5qN546mSh2UrGR1Xcvjczg==",
   "success": true,
   "projectFilePath": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.MVC\\CarWorkshop.MVC.csproj",
   "expectedPackageFiles": [
@@ -61,6 +61,9 @@
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",

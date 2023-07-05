@@ -6,20 +6,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarWorkshop.Application.CarWorkshop
+namespace CarWorkshop.Application.CarWorkshop.Commands.CreateCarWorkshop
 {
-    public class CarWorkshopDTOValidator : AbstractValidator<CarWorkshopDTO>
+    public class CreateCarWorkshopCommandValidator : AbstractValidator<CreateCarWorkshopCommand>
     {
-        public CarWorkshopDTOValidator(ICarWrokshopRepository repository)
+        public CreateCarWorkshopCommandValidator(ICarWrokshopRepository repository)
         {
             RuleFor(c => c.Name)
                 .NotEmpty()
                 .MinimumLength(2).WithMessage("Name should have at least 2 characters")
                 .MaximumLength(20)
-                .Custom((value, context) => 
+                .Custom((value, context) =>
                 {
                     var existingCarWorkshop = repository.GetByName(value).Result;
-                    if(existingCarWorkshop != null) 
+                    if (existingCarWorkshop != null)
                     {
                         context.AddFailure($"\"{value}\" is not unique name for a car workshop");
                     }
