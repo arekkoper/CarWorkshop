@@ -79,3 +79,5 @@ D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\Micros
 D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\System.CodeDom.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\AutoMapper.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

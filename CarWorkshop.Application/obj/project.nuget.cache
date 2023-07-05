@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "nv6tjbClb+AhyGjug+pOsxPHwitiRtwz714yq8IOQvtM/vH3qXg2SD90EykSXsfouTQX+GYQrj5OGJ7Bf9ki6w==",
+  "dgSpecHash": "i8G+hp6q7oj944e8Vka80hlxmHPSUxwnIxM86wf/11W4c4yT/JRkAaoKlyzgI12XI5uiEdfw266faoyazXv91Q==",
   "success": true,
   "projectFilePath": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.Application\\CarWorkshop.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
