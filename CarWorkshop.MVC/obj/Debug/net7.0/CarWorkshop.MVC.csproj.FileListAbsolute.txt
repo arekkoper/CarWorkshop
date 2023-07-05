@@ -81,3 +81,7 @@ D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\Mono.T
 D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\System.CodeDom.dll
 D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\AutoMapper.dll
 D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\FluentValidation.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\obj\Debug\net7.0\CarWorkshop.MVC.MvcApplicationPartsAssemblyInfo.cs
