@@ -266,3 +266,11 @@ D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\runtim
 D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\MediatR.dll
 D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\MediatR.Contracts.dll
 D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.MVC\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
