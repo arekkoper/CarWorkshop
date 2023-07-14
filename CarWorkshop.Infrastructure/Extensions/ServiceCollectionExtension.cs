@@ -15,7 +15,9 @@ namespace CarWorkshop.Infrastructure.Extensions
         public static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<CarWorkshopDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("CarWorkshop")));
-            services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<CarWorkshopDbContext>();
+            services.AddDefaultIdentity<IdentityUser>()
+                .AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores<CarWorkshopDbContext>();
             services.AddScoped<CarWorhskopSeeder>();
             services.AddScoped<ICarWrokshopRepository, CarWorkshopRepository>();
         }
