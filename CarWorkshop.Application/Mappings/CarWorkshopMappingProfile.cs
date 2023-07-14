@@ -27,7 +27,7 @@ namespace CarWorkshop.Application.Mappings
                 }));
 
             CreateMap<Domain.Entities.CarWorkshop, CarWorkshopDTO>()
-                .ForMember(dto => dto.IsEditable, opt => opt.MapFrom(src => user != null && src.CreatedById == user.Id))
+                .ForMember(dto => dto.IsEditable, opt => opt.MapFrom(src => user != null && (src.CreatedById == user.Id || user.IsInRole("Moderator"))))
                 .ForMember(dto => dto.Adress, opt => opt.MapFrom(src => src.ContactDetails.Adress))
                 .ForMember(dto => dto.City, opt => opt.MapFrom(src => src.ContactDetails.City))
                 .ForMember(dto => dto.PostalCode, opt => opt.MapFrom(src => src.ContactDetails.PostalCode))
