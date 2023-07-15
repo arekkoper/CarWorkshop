@@ -7,6 +7,7 @@ namespace CarWorkshop.Infrastructure.Persistence
     public class CarWorkshopDbContext : IdentityDbContext
     {
         public DbSet<Domain.Entities.CarWorkshop> CarWorkshops { get; set; }
+        public DbSet<Domain.Entities.CarWorkshopService> CarWorkshopsServices { get; set; }
 
         public CarWorkshopDbContext(DbContextOptions<CarWorkshopDbContext> options) : base(options) 
         {
@@ -16,8 +17,14 @@ namespace CarWorkshop.Infrastructure.Persistence
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Domain.Entities.CarWorkshop>()
                 .OwnsOne(c => c.ContactDetails);
+
+            modelBuilder.Entity<Domain.Entities.CarWorkshop>()
+                .HasMany(c => c.Services)
+                .WithOne(s => s.CarWorkshop)
+                .HasForeignKey(s => s.CarWorkshopId);
         }
     }
 }

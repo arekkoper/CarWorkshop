@@ -18,8 +18,11 @@ namespace CarWorkshop.Infrastructure.Extensions
             services.AddDefaultIdentity<IdentityUser>()
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<CarWorkshopDbContext>();
+
             services.AddScoped<CarWorhskopSeeder>();
+
             services.AddScoped<ICarWrokshopRepository, CarWorkshopRepository>();
+            services.AddScoped<ICarWorkshopServiceRespository, CarWorkshopServiceRepository>();
         }
     }
 }
