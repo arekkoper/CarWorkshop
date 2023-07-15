@@ -126,3 +126,5 @@ D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.Application.Tests\obj\Debug
 D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.Application.Tests\obj\Debug\net7.0\CarWorkshop.Application.Tests.pdb
 D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.Application.Tests\obj\Debug\net7.0\CarWorkshop.Application.Tests.genruntimeconfig.cache
 D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.Application.Tests\obj\Debug\net7.0\ref\CarWorkshop.Application.Tests.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.Application.Tests\bin\Debug\net7.0\Castle.Core.dll
+D:\Programowanie\CarWorkshop\CarWorkshop\CarWorkshop.Application.Tests\bin\Debug\net7.0\Moq.dll
