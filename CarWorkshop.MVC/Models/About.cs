@@ -4,13 +4,13 @@
     {
         public string Title { get; set; }
         public string Description { get; set; }
-        public string[] Tags { get; set; }
+        public List<string> Tags { get; set; }
 
-        public About(string title, string description, string[] tags) 
-        {
-            Title = title;
-            Description = description;
-            Tags = tags;
-        }
+        //public About(string title, string description, string[] tags) 
+        //{
+        //    Title = title;
+        //    Description = description;
+        //    Tags = tags;
+        //}
     }
 }

@@ -44,7 +44,12 @@ public class HomeController : Controller
 
     public IActionResult About()
     {
-        var model = new About("Some words about me", "Hi everyone! Im Arek and it's nice to see you :D", new string[] { "nice", "code", "nicepayment" }  );
+        var model = new About()
+        {
+            Title = "Some words about me",
+            Description = "Hi everyone! Im Arek and it's nice to see you :D",
+            Tags = new List<string>() { "nice", "code", "nicepayment" }
+        };
 
         return View(model);
     }
