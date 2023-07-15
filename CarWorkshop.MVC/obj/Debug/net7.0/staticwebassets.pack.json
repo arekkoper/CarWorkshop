@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.MVC\\wwwroot\\js\\CarWorkshop\\Edit.js",
+      "PackagePath": "staticwebassets\\js\\CarWorkshop\\Edit.js"
+    },
+    {
       "Id": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.MVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

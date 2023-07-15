@@ -10,7 +10,7 @@ namespace CarWorkshop.Application.CarWorkshop.Commands.CreateCarWorkshop
 {
     public class CreateCarWorkshopCommandValidator : AbstractValidator<CreateCarWorkshopCommand>
     {
-        public CreateCarWorkshopCommandValidator(ICarWrokshopRepository repository)
+        public CreateCarWorkshopCommandValidator(ICarWorkshopRepository repository)
         {
             RuleFor(c => c.Name)
                 .NotEmpty()

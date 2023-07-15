@@ -12,11 +12,11 @@ namespace CarWorkshop.Application.CarWorkshop.Commands.CreateCarWorkshop
 {
     public class CreateCarWorkshopCommandHandler : IRequestHandler<CreateCarWorkshopCommand>
     {
-        public readonly ICarWrokshopRepository _repository;
+        public readonly ICarWorkshopRepository _repository;
         public readonly IMapper _mapper;
         private readonly IUserContext _userContext;
 
-        public CreateCarWorkshopCommandHandler(ICarWrokshopRepository repository, IMapper mapper, IUserContext userContext)
+        public CreateCarWorkshopCommandHandler(ICarWorkshopRepository repository, IMapper mapper, IUserContext userContext)
         {
             _repository = repository;
             _mapper = mapper;

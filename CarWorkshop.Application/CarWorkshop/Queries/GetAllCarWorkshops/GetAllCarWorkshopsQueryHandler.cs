@@ -11,10 +11,10 @@ namespace CarWorkshop.Application.CarWorkshop.Queries.GetAllCarWorkshops
 {
     public class GetAllCarWorkshopsQueryHandler : IRequestHandler<GetAllCarWorkshopsQuery, IEnumerable<CarWorkshopDTO>>
     {
-        private readonly ICarWrokshopRepository _repository;
+        private readonly ICarWorkshopRepository _repository;
         private readonly IMapper _mapper;
 
-        public GetAllCarWorkshopsQueryHandler(ICarWrokshopRepository repository, IMapper mapper)
+        public GetAllCarWorkshopsQueryHandler(ICarWorkshopRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;

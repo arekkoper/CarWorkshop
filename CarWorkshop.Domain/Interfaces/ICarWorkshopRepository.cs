@@ -1,7 +1,7 @@
 ﻿
 namespace CarWorkshop.Domain.Interfaces
 {
-    public interface ICarWrokshopRepository
+    public interface ICarWorkshopRepository
     {
         Task Create(Domain.Entities.CarWorkshop carWorkshop);
         Task Commit();
