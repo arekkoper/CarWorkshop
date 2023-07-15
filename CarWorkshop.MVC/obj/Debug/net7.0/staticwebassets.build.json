@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4BrWQ4v0e7vtK6yIp9aLy0aufcF28aL113suPrX9hjA=",
+  "Hash": "rURvbMXC3pfWJwyo9MQpXlNMI6Zy5+nzuKQf2kHBl54=",
   "Source": "CarWorkshop.MVC",
   "BasePath": "_content/CarWorkshop.MVC",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.MVC\\wwwroot\\js\\CarWorkshop\\Details.js",
+      "SourceId": "CarWorkshop.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.MVC\\wwwroot\\",
+      "BasePath": "_content/CarWorkshop.MVC",
+      "RelativePath": "js/CarWorkshop/Details.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\CarWorkshop\\Details.js"
     },
     {
       "Identity": "D:\\Programowanie\\CarWorkshop\\CarWorkshop\\CarWorkshop.MVC\\wwwroot\\js\\CarWorkshop\\Edit.js",
