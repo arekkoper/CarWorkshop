@@ -1,5 +1,6 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 <ul class="navbar-nav">
     @if (SignInManager.IsSignedIn(User))
@@ -7,6 +8,17 @@
         <li class="nav-item">
             <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index"
                title="Manage">Hello @User.Identity?.Name!</a>
+            @{
+                var identityUser = User.Identity as IdentityUser;
+                if(identityUser != null)
+                {
+                    var roles = await UserManager.GetRolesAsync(identityUser);
+                    if (roles.Any())
+                    {
+                        <span>Roles: @string.Join(", ", roles)</span>
+                    }
+                }
+            }
         </li>
         <li class="nav-item">
             <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout"

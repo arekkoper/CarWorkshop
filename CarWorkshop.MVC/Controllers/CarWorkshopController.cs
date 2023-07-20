@@ -84,7 +84,6 @@ namespace CarWorkshop.MVC.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Owner")]
         [Route("CarWorkshop/CarWorkshopService")]
         public async Task<IActionResult> CreateCarWorkshopService(CreateCarWorkshopServiceCommand command)
         {
