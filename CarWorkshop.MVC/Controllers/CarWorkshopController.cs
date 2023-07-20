@@ -26,14 +26,14 @@ namespace CarWorkshop.MVC.Controllers
             _mapper = mapper;
         }
 
-        [Authorize(Roles = "Owner")]
+        [Authorize]
         public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
-        [Authorize(Roles = "Owner")]
+        [Authorize]
         public async Task<IActionResult> Create(CreateCarWorkshopCommand command)
         {
             if (!ModelState.IsValid) return View(command);
